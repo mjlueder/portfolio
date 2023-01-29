@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(27, 27, 92);
+  color: #EEE;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #EEE;
+  height: 10vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  color: #009;
+}
+
+nav a:visited {
+  color: #009;
+}
+
+main a {
+  color:#EEE;
+}
+
+main a:visited {
+  color:#EEE;
+}
