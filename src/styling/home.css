@@ -8,4 +8,16 @@ main {
 #main-photo {
   height: 50vh;
   border-radius: 50%;
+	flex-shrink: 0;
+	margin: 20px;
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.5);
+	background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces), 
+  linear-gradient(to bottom right, #98939a, #4a4476, #5787a9)
+  /* linear-gradient(to bottom right, #c4c5c6, #1d2762); */
+  /* linear-gradient(to bottom right, #63e7fe, #1e2a79); */
 }

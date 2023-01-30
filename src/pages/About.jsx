@@ -1,4 +1,4 @@
-import '../styling/about.css'
+import '../styling/home.css'
 import photo from '../assets/photo.jpeg'
 
 const About = () => {
