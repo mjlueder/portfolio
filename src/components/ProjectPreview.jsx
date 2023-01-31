@@ -1,4 +1,6 @@
-import '../styling/preview.css'
+import '../styling/projects.css'
+import ProjectDetails from '../pages/ProjectDetails'
+import { Link } from 'react-router-dom'
 
 const ProjectPreview = ({project}) => {
   return (
@@ -9,9 +11,11 @@ const ProjectPreview = ({project}) => {
           {project.title}
         </h2>
       </section>
-      <button>
-        Learn More
-      </button>
+      <Link to={`/projects/${project.id}`}>
+        <button>
+          Learn More
+        </button>
+      </Link>
     </div>
   )
 }

@@ -10,8 +10,9 @@ body {
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   /* background-color: #EEE; */
-  height: 10vh;
+  height: 8vh;
   backdrop-filter: blur(2px);
 }
 
