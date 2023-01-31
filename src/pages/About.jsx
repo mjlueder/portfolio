@@ -12,7 +12,7 @@ const About = () => {
 
       <p>I love the creativity and logic of programming. I enjoy the balance between backend functionality and frontend aesthetics and flow. I’m excited to take my unique skills and experiences and apply them to new problems. Ultimately, I want to continue to do work that is doing good; I think that’s incredibly important.</p>
 
-      <p>Outside of work I also love music, yoga, mindfulness, wildlife, psychology, health, and wellness, and training my two crazy but wonderful dogs.</p>
+      <p>*ADD DOG PICTURES!* Outside of work I also love music, yoga, mindfulness, wildlife, psychology, health, and wellness, and training my two crazy but wonderful dogs.</p>
     </>
   )
 }
