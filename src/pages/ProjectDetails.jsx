@@ -18,12 +18,15 @@ const ProjectDetails = () => {
       <p>{project[0].description2}</p>
       <div className='project-btns'>
         <Link to={project[0].repoLink} target='_blank'>
-          <button>Repository</button>
+          <button className='project-btn'>Repository</button>
         </Link>
         <Link to={project[0].deployLink} target='_blank'>
-          <button>Deployed!</button>
+          <button className='project-btn'>Deployed!</button>
         </Link>
       </div>
+      <Link to='/projects'>
+        <button>Back</button>
+      </Link>
     </>
   )
 }

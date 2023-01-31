@@ -1,10 +1,12 @@
 body {
-  background-color: rgb(27, 27, 92);
+  background-color: rgb(222, 222, 221);
   background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
   color: black;
   width: 100vw;
   background-size: cover;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 nav {
@@ -14,6 +16,21 @@ nav {
   /* background-color: #EEE; */
   height: 8vh;
   backdrop-filter: blur(2px);
+  /* background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'); */
+  /* position: fixed;
+  top: 0;
+  width: 100vw; */
+  /* filter: blur(2px); */
+}
+
+/* nav:before {
+  background: inherit;
+  z-index: -1;
+  filter: blur(2px);
+} */
+
+main {
+  /* margin-top: 8vh; */
 }
 
 a {

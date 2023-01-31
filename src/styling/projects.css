@@ -1,7 +1,35 @@
+.project-list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .list-pic {
-  height: 40vh;
+  height: 30vh;
+  border-radius: 16px;
 }
 
 .details-pic {
   height: 60vh;
+}
+
+.project-btns {
+  /* margin: 24px; */
+}
+
+.project-btn {
+  margin: 16px;
+}
+
+.details-pic {
+  border-radius: 32px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
 }
