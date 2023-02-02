@@ -29,8 +29,7 @@
 	background-size: cover;
 	box-sizing: border-box;
 	box-shadow: 0 0 3px 3px rgba(52, 52, 52, 0.5);
-  background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces), 
-  linear-gradient(to bottom right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)
+  background-image: linear-gradient(to bottom right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)
 }
 
 .project-btns {
