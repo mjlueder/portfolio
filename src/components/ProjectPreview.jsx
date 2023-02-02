@@ -1,5 +1,4 @@
 import '../styling/projects.css'
-import ProjectDetails from '../pages/ProjectDetails'
 import { Link } from 'react-router-dom'
 
 const ProjectPreview = ({project}) => {
