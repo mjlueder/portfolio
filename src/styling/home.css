@@ -23,3 +23,21 @@ main {
   /* linear-gradient(to bottom right, #c4c5c6, #1d2762); */
   /* linear-gradient(to bottom right, #63e7fe, #1e2a79); */
 }
+
+p {
+  width: 80vw;
+  font-size: 18px;
+  font-family: 'Quattrocento', serif;
+  font-size: 24px;
+}
+
+#last-p {
+  margin-bottom: 58px;
+}
+
+@media only screen and (max-width: 700px) {
+  #main-photo {
+    width: 80vw;
+    height: auto;
+  }
+}

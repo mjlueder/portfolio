@@ -7,23 +7,45 @@
 
 .list-pic {
   height: 30vh;
-  border-radius: 16px;
+  border-radius: 20px;
+  flex-shrink: 0;
+	margin: 20px 20px 10px 20px;
+	border: calc(4px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px 3px rgba(52, 52, 52, 0.5);
+  background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces), 
+  linear-gradient(to bottom right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)
 }
 
 .details-pic {
   height: 60vh;
+  border: calc(6px + 0.2vw) solid transparent;
+  border-radius: 32px;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 3px 3px rgba(52, 52, 52, 0.5);
+  background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces), 
+  linear-gradient(to bottom right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)
 }
 
 .project-btns {
-  /* margin: 24px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-btn {
-  margin: 16px;
+  margin: 22px;
 }
 
-.details-pic {
-  border-radius: 32px;
+.back-btn {
+  margin-bottom: 68px;
 }
 
 .project-card {
@@ -32,4 +54,18 @@
   justify-content: center;
   align-items: center;
   margin: 32px;
+}
+
+.description {
+  width: 80vw;
+  margin-top: 5vh;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .details-pic {
+    width: 90vw;
+    height: auto;
+  }
 }

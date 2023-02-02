@@ -1,4 +1,12 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
 #contact-links {
-  background-color: #eee;
+  /* background-color: #eee; */
   border-radius: 15px;
 }
