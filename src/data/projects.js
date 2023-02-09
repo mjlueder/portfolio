@@ -1,4 +1,11 @@
 const projects = [
+  {title: "Rec Drop", 
+    id: "rec-drop",
+    description1: "A fun app for sharing what you love and finding new shows, movies, books, and music!",
+    description2: "This app was made in collaboration with other students, using React, MongoDB, Express, Node, JS, CSS, and HTML. It was a blast to create, and a great experience in working as a team to make something we're all proud of.", 
+    image: "/rec-drop-scsh.png", 
+    repoLink: "https://github.com/pat-kelly/rec-drop-front-end", 
+    deployLink: "https://rec-drop.netlify.app/"},
   {title: "Gorilla Training", 
     id: "gorilla-training",
     description1: "This MEN-stack app implementing full CRUD and Google OAuth authentication and authorization. This app allows teams to coordinate and track training behaviors for multiple groups of animals. It helps improve functionality and monitoring of training progress, and has an easy-to-follow, intuitive design flow. It is designed for work environments that are desktop-focused, but also works on mobile.",
