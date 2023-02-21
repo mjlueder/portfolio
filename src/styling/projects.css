@@ -6,7 +6,10 @@
 }
 
 .list-pic {
-  height: 30vh;
+  max-width: 25vw;
+  width: auto;
+  max-height: 25vh;
+  height: auto;
   border-radius: 20px;
   flex-shrink: 0;
 	margin: 20px 20px 10px 20px;
